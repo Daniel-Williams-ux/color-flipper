@@ -1,4 +1,59 @@
-html, body {
-  height: 100%;
-  width: 100%;
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  font-family: sans-serif; 
+  line-height: 1.5;
+  font-size: 0.875rem;  
+  font-size: 1rem;
+}
+
+nav {
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #0b132b;
+  color: #ffffff;
+  padding: 25px 60px;/*top/bottom && left/right*/
+  margin-bottom: 30px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  color: white;
+  padding: 10px; 10px
+  margin: 10px; 10px;
+}
+
+.container {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  padding: 205px;
+}
+
+.btn {
+border-radius: 5px;
+font-size: 1rem;
+padding:10px 10px;
+ margin: 15px;
+box-shadow: none;
+font-size: 1rem;
+cursor: pointer;
+}
+
+.btn:hover {
+  color: green;
+} 
